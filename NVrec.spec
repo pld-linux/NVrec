@@ -48,7 +48,7 @@ pliki QuickTime, AVI, NuppelVideo 0.4 i MPEG-1.
 %patch1 -p1
 
 %build
-libtoolize --copy --force
+%{__libtoolize}
 aclocal
 automake
 %{__autoconf}
