@@ -22,7 +22,6 @@ BuildRequires:	automake
 BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 NewVideoRecorder is a high quality video capture toolkit for Linux. It
