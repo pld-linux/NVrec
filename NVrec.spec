@@ -1,12 +1,12 @@
 Summary:	New Video Recorder
 Summary(pl):	Nowy Rejestrator Obrazu
 Name:		NVrec
-Version:	20020710
+Version:	20030316
 Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	http://nvrec.sourceforge.net/downloads/nvrec-%{version}.tar.gz
-# Source0-md5:	7f48084c316bb2626a43c1fb98600334
+# Source0-md5:	82a7f0f3e661bb2740cb3778edd1dfae
 #Patch0:		%{name}-avifile-0.6.patch
 #Patch1:		%{name}-make.patch
 URL:		http://nvrec.sf.net/
