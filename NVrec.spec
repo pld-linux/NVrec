@@ -56,7 +56,6 @@ pliki QuickTime, AVI, NuppelVideo 0.4 i MPEG-1.
 rm -rf $RPM_BUILD_ROOT
 %{__make} DESTDIR=$RPM_BUILD_ROOT install
 
-gzip -9nf AUTHORS COPYING INSTALL README CREDITS ChangeLog KNOWN_BUGS
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -64,4 +63,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
-%doc *.gz
+%doc AUTHORS COPYING INSTALL README CREDITS ChangeLog KNOWN_BUGS
