@@ -39,7 +39,7 @@ Linuksa. U¿ywa du¿ych buforów d¼wiêku i obrazu, aby zmniejszyæ gubienie
 ramek, algorytmu p³ynnego pomijania ramek, aby utrzymaæ p³ynno¶æ obrazu
 kiedy ramkê trzeba pomin±æ i dynamiczne rozci±ganie strumienia d¼wiêku
 aby zgadza³ siê ze strumieniem obrazu. Mo¿e u¿ywaæ urz±dzeñ v4l1 i v4l2
-jako ¼ród³e³ obrazu i urz±dzeñ OSS jako ¼róde³ d¼wiêku. Mo¿e zapisywaæ
+jako ¼róde³ obrazu i urz±dzeñ OSS jako ¼róde³ d¼wiêku. Mo¿e zapisywaæ
 pliki QuickTime, AVI, NuppelVideo 0.4 i MPEG-1.
 
 %prep
