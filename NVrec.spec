@@ -10,11 +10,11 @@ Source0:	%{name}-%{version}.tar.gz
 Patch0:		%{name}-avifile-0.6.patch
 Patch1:		%{name}-make.patch
 Requires:	divx4linux >= 20010824
-Requires:	avifile >= 0.6-0.20010809
+Requires:	avifile >= 0.6-0.20010809.2
 Requires:	rte
 Requires:	lame-libs >= 3.70
 BuildRequires:  lame-libs-static >= 3.70
-BuildRequires:	avifile-devel >= 0.6-0.20010809
+BuildRequires:	avifile-devel >= 0.6-0.20010809.2
 BuildRequires:  divx4linux-devel >= 20010824
 BuildRequires:	rte-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
