@@ -1,14 +1,14 @@
 Summary:	New Video Recorder
 Summary(pl):	Nowy Rejestrator Obrazu
 Name:		NVrec
-Version:	20010808
-Release:	2
+Version:	20020710
+Release:	1
 License:	GPL
 Group:		X11/Applications/Multimedia
-Source0:	http://www.ee.up.ac.za/~justin/v4l2/%{name}-%{version}.tar.gz
-Patch0:		%{name}-avifile-0.6.patch
-Patch1:		%{name}-make.patch
-URL:		http://www.ee.up.ac.za/~justin/v4l2/
+Source0:	http://nvrec.sourceforge.net/downloads/nvrec-%{version}.tar.gz
+#Patch0:		%{name}-avifile-0.6.patch
+#Patch1:		%{name}-make.patch
+URL:		http://nvrec.sf.net/
 Requires:	divx4linux >= 20010824
 Requires:	avifile >= 0.6-0.20010809.2
 Requires:	rte
@@ -43,15 +43,12 @@ jako ¼ród³e³ obrazu i urz±dzeñ OSS jako ¼róde³ d¼wiêku. Mo¿e zapisywaæ
 pliki QuickTime, AVI, NuppelVideo 0.4 i MPEG-1.
 
 %prep
-%setup  -q
-%patch0 -p1
-%patch1 -p1
+%setup  -q -n nvrec-%{version}
+#%patch0 -p1
+#%patch1 -p1
 
 %build
-%{__libtoolize}
-aclocal
-automake
-%{__autoconf}
+./bootstrap
 %configure
 %{__make}
 
@@ -67,5 +64,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/*
-%attr(755,root,root) %{_libdir}/*
 %doc *.gz
