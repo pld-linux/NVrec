@@ -51,7 +51,7 @@ pliki QuickTime, AVI, NuppelVideo 0.4 i MPEG-1.
 libtoolize --copy --force
 aclocal
 automake
-autoconf
+%{__autoconf}
 %configure
 %{__make}
 
