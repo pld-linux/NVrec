@@ -63,5 +63,5 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS COPYING INSTALL README CREDITS ChangeLog KNOWN_BUGS
+%doc AUTHORS CREDITS ChangeLog FAQ KNOWN_BUGS NEWS README STATUS
 %attr(755,root,root) %{_bindir}/*
