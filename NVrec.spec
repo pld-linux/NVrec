@@ -5,8 +5,6 @@ Version:	20010808
 Release:	2
 License:	GPL
 Group:		X11/Applications/Multimedia
-Group(de):	X11/Applikationen/Multimedia
-Group(pl):	X11/Aplikacje/Multimedia
 Source0:	http://www.ee.up.ac.za/~justin/v4l2/%{name}-%{version}.tar.gz
 Patch0:		%{name}-avifile-0.6.patch
 Patch1:		%{name}-make.patch
