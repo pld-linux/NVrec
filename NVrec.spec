@@ -12,12 +12,12 @@ Source0:	http://nvrec.sourceforge.net/downloads/nvrec-%{version}.tar.gz
 URL:		http://nvrec.sf.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
-BuildRequires:	avifile-devel >= 0.6-0.20010809.2
+BuildRequires:	avifile-devel >= 1:0.6-0.20010809.2
 BuildRequires:	divx4linux-devel >= 20010824
 BuildRequires:	lame-libs-static >= 3.70
 BuildRequires:	libtool
 BuildRequires:	rte-devel
-Requires:	avifile >= 0.6-0.20010809.2
+Requires:	avifile >= 1:0.6-0.20010809.2
 Requires:	divx4linux >= 20010824
 Requires:	lame-libs >= 3.70
 Requires:	rte
