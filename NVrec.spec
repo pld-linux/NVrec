@@ -10,19 +10,18 @@ Source0:	http://nvrec.sourceforge.net/downloads/nvrec-%{version}.tar.gz
 #Patch0:		%{name}-avifile-0.6.patch
 #Patch1:		%{name}-make.patch
 URL:		http://nvrec.sf.net/
-Requires:	divx4linux >= 20010824
-Requires:	avifile >= 0.6-0.20010809.2
-Requires:	rte
-Requires:	lame-libs >= 3.70
-BuildRequires:	lame-libs-static >= 3.70
-BuildRequires:	avifile-devel >= 0.6-0.20010809.2
-BuildRequires:	divx4linux-devel >= 20010824
-BuildRequires:	rte-devel
 BuildRequires:	autoconf
 BuildRequires:	automake
+BuildRequires:	avifile-devel >= 0.6-0.20010809.2
+BuildRequires:	divx4linux-devel >= 20010824
+BuildRequires:	lame-libs-static >= 3.70
 BuildRequires:	libtool
+BuildRequires:	rte-devel
+Requires:	avifile >= 0.6-0.20010809.2
+Requires:	divx4linux >= 20010824
+Requires:	lame-libs >= 3.70
+Requires:	rte
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 NewVideoRecorder is a high quality video capture toolkit for Linux. It
@@ -55,13 +54,14 @@ MPEG-1.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-%{__make} DESTDIR=$RPM_BUILD_ROOT install
 
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}/*
 %doc AUTHORS COPYING INSTALL README CREDITS ChangeLog KNOWN_BUGS
+%attr(755,root,root) %{_bindir}/*
