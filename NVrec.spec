@@ -7,9 +7,9 @@ License:	GPL
 Group:		X11/Applications/Multimedia
 Source0:	http://nvrec.sourceforge.net/downloads/nvrec-%{version}.tar.gz
 # Source0-md5:	82a7f0f3e661bb2740cb3778edd1dfae
-#Patch0:		%{name}-avifile-0.6.patch
-#Patch1:		%{name}-make.patch
-URL:		http://nvrec.sf.net/
+#Patch0:	%{name}-avifile-0.6.patch
+#Patch1:	%{name}-make.patch
+URL:		http://nvrec.sourceforge.net/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	avifile-devel >= 1:0.6-0.20010809.2
