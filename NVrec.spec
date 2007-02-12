@@ -1,5 +1,5 @@
 Summary:	New Video Recorder
-Summary(pl.UTF-8):   Nowy Rejestrator Obrazu
+Summary(pl.UTF-8):	Nowy Rejestrator Obrazu
 Name:		NVrec
 Version:	20030316
 Release:	1
