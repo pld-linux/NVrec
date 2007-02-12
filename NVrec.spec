@@ -1,5 +1,5 @@
 Summary:	New Video Recorder
-Summary(pl):	Nowy Rejestrator Obrazu
+Summary(pl.UTF-8):   Nowy Rejestrator Obrazu
 Name:		NVrec
 Version:	20030316
 Release:	1
@@ -32,14 +32,14 @@ the video stream. It can use v4l1 and v4l2 devices as video sources,
 and OSS devices as an audio source. It can produce QuickTime, AVI,
 NuppelVideo 0.4 files, and MPEG-1 files.
 
-%description -l pl
-NewVideoRecorder to narzêdzie wysokiej jako¶ci do zgrywania obrazu dla
-Linuksa. U¿ywa du¿ych buforów d¼wiêku i obrazu, aby zmniejszyæ
-gubienie ramek, algorytmu p³ynnego pomijania ramek, aby utrzymaæ
-p³ynno¶æ obrazu kiedy ramkê trzeba pomin±æ i dynamiczne rozci±ganie
-strumienia d¼wiêku aby zgadza³ siê ze strumieniem obrazu. Mo¿e u¿ywaæ
-urz±dzeñ v4l1 i v4l2 jako ¼róde³ obrazu i urz±dzeñ OSS jako ¼róde³
-d¼wiêku. Mo¿e zapisywaæ pliki QuickTime, AVI, NuppelVideo 0.4 i
+%description -l pl.UTF-8
+NewVideoRecorder to narzÄ™dzie wysokiej jakoÅ›ci do zgrywania obrazu dla
+Linuksa. UÅ¼ywa duÅ¼ych buforÃ³w dÅºwiÄ™ku i obrazu, aby zmniejszyÄ‡
+gubienie ramek, algorytmu pÅ‚ynnego pomijania ramek, aby utrzymaÄ‡
+pÅ‚ynnoÅ›Ä‡ obrazu kiedy ramkÄ™ trzeba pominÄ…Ä‡ i dynamiczne rozciÄ…ganie
+strumienia dÅºwiÄ™ku aby zgadzaÅ‚ siÄ™ ze strumieniem obrazu. MoÅ¼e uÅ¼ywaÄ‡
+urzÄ…dzeÅ„ v4l1 i v4l2 jako ÅºrÃ³deÅ‚ obrazu i urzÄ…dzeÅ„ OSS jako ÅºrÃ³deÅ‚
+dÅºwiÄ™ku. MoÅ¼e zapisywaÄ‡ pliki QuickTime, AVI, NuppelVideo 0.4 i
 MPEG-1.
 
 %prep
