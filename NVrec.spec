@@ -44,8 +44,8 @@ MPEG-1.
 
 %prep
 %setup  -q -n nvrec-%{version}
-#%patch0 -p1
-#%patch1 -p1
+#%%patch0 -p1
+#%%patch1 -p1
 
 %build
 ./bootstrap
